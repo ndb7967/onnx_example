@@ -133,11 +133,12 @@ git commit -m "Update"
 * Add the remote GitHub repository.
 
 <pre>
-git remote add origin https://github.com/ndb7967/onnx_example
+git branch -M main
+git remote add origin https://github.com/ndb7967/onnx_example.git
 </pre>
 
 * Push the codes.
 
 <pre>
-git push --set-upstream origin master
+git push -u origin main
 </pre>
