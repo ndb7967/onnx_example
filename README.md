@@ -4,13 +4,13 @@
 * <b>Download</b>: https://nodejs.org/en/download
 * After the installation, we can use the *npm* and *npx* commands.
 
-### <b>How to Install?</b>
+### <b>How to Install</b>
 
 <pre>
 npm init
 </pre>
 
-* After install a Node.js package, the followings will appear:
+* After install a <b>Node.js</b> package, the followings will appear:
   1. *package.json* shows the packages we want to use.
   2. *package-lock.json* shows the detailed packages with version names.
   3. *node_modules* represents the whole source codes of installed packages.
@@ -19,7 +19,7 @@ npm init
 npm install light-server
 </pre>
 
-### <b>How to Run?</b>
+### <b>How to Run</b>
 
 * After running the light-server, we can open the link *http://localhost:8080/*.
 
@@ -27,12 +27,12 @@ npm install light-server
 npx light-server -s . -p 8080
 </pre>
 
-### <b>(Tutorial) How to Use the ONNX Model?</b>
+### <b>(Tutorial) How to Use the ONNX Model</b>
 
-* We can simply use the extracted ONNX model file following the below code template.
+* We can simply use the extracted <b>ONNX</b> model file following the below code template.
 * We need the "ort.min.js" from the ONNX runtime web library.
-  * Option (1) Loading from the ONNX CDN.
-  * Option (2) Using *const ort = require('onnxruntime-web');* when using the Webpack.
+  * Option 1. Loading from the ONNX CDN.
+  * Option 2. Using *const ort = require('onnxruntime-web');* when using the Webpack.
 
 <pre>
 async function run() {
@@ -69,7 +69,7 @@ async function run() {
 run();
 </pre>
 
-### <b>(Tutorial) How to Use the Webpack?</b>
+### <b>(Tutorial) How to Use the Webpack</b>
 
 * To use the ONNX web assembly extensions, we can use the plugin method.
 * We can write the *webpack.config.js* code.

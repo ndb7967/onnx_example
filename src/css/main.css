@@ -1,9 +1,6 @@
 img {
-  max-width: 244px;
-}
-
-.wrapper {
-  max-height: 100vh;
+  max-width: 374px;
+  max-height: 374px;
 }
 
 .loading {

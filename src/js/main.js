@@ -36,7 +36,7 @@ window.setInterval(function() {
     // target.innerHTML = `<img src="src/images/loading.gif" class="loading"/>`;
     target.innerHTML = `<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="loading"/>`;
   } else if (predictedClass !== undefined) {
-    target.innerHTML = `<h3>The predicted result is ${predictedClass} (${predictedConfidence}%).`;
+    target.innerHTML = `The predicted result is <b>${predictedClass}</b> (${predictedConfidence}%).`;
   } else {
     target.innerHTML = ``;
   }
