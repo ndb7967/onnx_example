@@ -13,7 +13,7 @@ npm init
 * After install a <b>Node.js</b> package, the followings will appear:
   1. *package.json* shows the packages we want to use.
   2. *package-lock.json* shows the detailed packages with version names.
-  3. *node_modules* represents the whole source codes of installed packages.
+  3. *node_modules* contains the whole source codes of installed packages.
 
 <pre>
 npm install light-server
