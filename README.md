@@ -121,4 +121,23 @@ git init
 
 <pre>
 git add .
+git status
+</pre>
+
+* Commit the files.
+
+<pre>
+git commit -m "Update"
+</pre>
+
+* Add the remote GitHub repository.
+
+<pre>
+git remote add origin https://github.com/ndb7967/onnx_example
+</pre>
+
+* Push the codes.
+
+<pre>
+git push --set-upstream origin master
 </pre>
